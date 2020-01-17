@@ -8,7 +8,9 @@ import {
   UserName,
   UserTechs,
   UserBio,
-  Link
+  Link,
+  ActionButtons,
+  Button
 } from './styles';
 
 export default function DevItem({ dev }) {
@@ -29,6 +31,12 @@ export default function DevItem({ dev }) {
       >
         Acessar perfil no github
       </Link>
+
+      <ActionButtons>
+        <Button>Editar</Button>
+
+        <Button danger>Excluir</Button>
+      </ActionButtons>
     </Dev>
   );
 }

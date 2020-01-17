@@ -57,3 +57,19 @@ export const Link = styled.a`
     color: #5a2da6;
   }
 `;
+
+export const ActionButtons = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+`;
+
+export const Button = styled.button`
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: ${props => props.danger ? '#ff3844' : ''};
+  color: ${props => props.danger ? '#FFF' : ''};
+`;

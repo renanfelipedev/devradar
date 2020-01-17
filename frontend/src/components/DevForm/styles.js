@@ -33,7 +33,7 @@ export const TextInput = styled.input`
   border-bottom: 1px solid #eee;
 
   &:focus {
-    border-bottom: 1.3px solid #3399ff;
+    border-bottom: 1px solid #c3c3c3;
   }
 `;
 

@@ -9,7 +9,7 @@ import {
   SubmitButton
 } from './styles';
 
-export default function DevForm(onSubmit) {
+export default function DevForm({ onSubmit }) {
   const [github_username, setGithubUsername] = useState('');
   const [techs, setTechs] = useState('');
   const [latitude, setLatitude] = useState('');
